@@ -1,0 +1,16 @@
+dataset: AmbigQA
+ensembling_method: clarification_zeroshot
+variation_model: 
+  model_safename: gpt_4o #Name used for file system. Should not contain /.
+  config: 
+    model_type: openai
+    model_name: gpt-4o-2024-11-20
+  generation_config:
+    max_completion_tokens: 1024 
+    temperature: 1.0
+    seed: 42 #experimental, does not guarantee 100% reproducibility but this is as good as it gets
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    max_workers: 50

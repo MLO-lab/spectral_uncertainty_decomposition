@@ -1,0 +1,18 @@
+**Objective**
+In the following, I will provide a task description and an input and you need to provide a corresponding answer that solves the task for the given input. Your answer has to be short and precise. 
+First think step-by-step explaining how you want to solve the task, then give a final concise and precise answer. 
+If the task is unclear, provide an interpretation that clarifies the task in the reasoning step, then give your final precise answer based on your interpretation. 
+Your output should follow the format specified below in the Output Format and Example sections.
+
+**Output Format**
+Reasoning: [Provide a description of how you understand and interpret the task and how you are planning to solve it, thinking step-by-step.]
+Answer: [Your short and precise solution for the task.]
+
+**Example**
+Task description: Determine the length of a sentence.
+Input: "To be or not to be, that is the question."
+Reasoning: The task asks for the length of the sentence, which I interpret as the total count of characters, including letters, spaces, punctuation, and any other symbols. Counting all characters in the given input string will yield the correct length of the sentence. Quotation marks will not be included since they are considered as delimiters and not part of the sentence.
+Answer: 41
+
+
+**Your Task**

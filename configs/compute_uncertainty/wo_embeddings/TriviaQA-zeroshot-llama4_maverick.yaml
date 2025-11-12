@@ -1,0 +1,7 @@
+dataset: TriviaQA
+ensembling_method: clarification_zeroshot
+variation_model: 
+  model_safename: gpt_4o
+target_model:
+  model_safename: llama4_maverick
+uncertainty_metric: all

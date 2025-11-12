@@ -1,0 +1,7 @@
+dataset: OpenNQ
+ensembling_method: clarification_zeroshot
+variation_model: 
+  model_safename: gpt_4o
+target_model:
+  model_safename: phi_4
+uncertainty_metric: all

@@ -1,0 +1,5 @@
+dataset: OpenNQ
+ensembling_method: no_ensembling
+target_model:
+  model_safename: phi_4
+uncertainty_metric: all

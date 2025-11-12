@@ -1,0 +1,23 @@
+**Objective**
+In the following, I will provide a question and you need to provide a corresponding answer. Your answer has to be short and precise. Do not write extra text or explanation, just give the answer directly. If the question is unclear or you do not know the answer, do not answer with phrases like "I'm sorry.." or "The question is unclear". Instead, you need to give a random guess for the answer. Do not ask follow-up questions or indicate that you do not know the answer. You should always provide a short and precise answer; either the true answer if you know it or your random guess if you are unsure. It should not be recognizable in your output whether your answer is the true answer or the random guess.
+Your output should follow the format specified below in the Output Format and Example sections.
+
+**Output Format**
+Answer: [Your short and precise answer or random guess. Do not include any additional information.]
+
+**Examples**
+Question: When did the british army got final defeat against the united state of america?
+Answer: February, 1815
+
+Question: What kind of dog in little rascals movie?
+Answer: doberman pinscher
+
+Question: Where does the last name carson come from?
+Answer: Scottish and Irish origin
+
+Question: Who wrote the music for game of thrones?
+Answer: Ramin Djawadi
+
+
+**Task**
+Question: 

@@ -1,0 +1,24 @@
+**Objective**
+Analyze the given task description for ambiguities based on the description itself and the provided task input. If the task description is ambiguous, your task is to clarify it by interpreting the ambiguous concepts, specifying necessary conditions, or using other methods. Provide all possible clarifications.
+An ambiguous task is a task that has different correct answers, given the provided input. Your clarifications are supposed to remove any ambiguity in the task so every clarified task will have a single possible correct answer, given the provided input.
+
+**Important Rules**
+1. Perform detailed analyses before concluding whether the task description is clear or ambiguous.
+2. Output clarifications in the specified format.
+3. Some seemingly unambiguous task descriptions are actually ambiguous given that particular input. So, do not forget to leverage the input to analyze whether the task description is underspecified.
+4. You can only clarify the task description. The input should remain the same. Please provide only your reasoning (Analyses) and then the clarified versions of the task description (Clarifications).
+
+**Output Format**
+Your output should follow this format:
+### Analyses:
+[Think step-by-step to reason on the clarity of the task description. After that, output your judgement on whether the task description is ambiguous or not]
+
+### Clarifications:
+#1 [One disambiguated task description]
+#2 [Another disambiguated task description]
+#3 [Yet another disambiguated task description]
+...
+
+If the task description is clear and unambiguous, simply output:
+### Clarifications:
+#1 No clarification needed.
