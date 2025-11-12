@@ -1,7 +1,7 @@
 # Spectral Uncertainty
 This repo is our official implementation of the paper "Fine-Grained Uncertainty Decomposition in Large Language Models: A Spectral Approach" as well as the baselines we compare to. 
 
-![alt text](SpectralUQ2.png)
+![alt text](SpectralUQ.png)
 
 All results and plots in the paper can be reproduced by running this repo. <br>
 **Paper arXiv:** https://arxiv.org/abs/2509.22272
